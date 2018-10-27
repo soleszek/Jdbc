@@ -21,7 +21,7 @@ public class JdbcUtils {
         prop.put("user", dbUser);
 
         try {
-            Connection connection = DriverManager.getConnection(connectionString + connectionOptions, prop);
+            connection = DriverManager.getConnection(connectionString + connectionOptions, prop);
         } catch (SQLException e) {
             e.printStackTrace();
         }
