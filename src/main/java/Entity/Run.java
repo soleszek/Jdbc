@@ -58,6 +58,8 @@ public class Run {
         this.memberLimit = memberLimit;
     }
 
+    public Run(){};
+
     public Run(Long id, String name, String place, Date startTime, Date startDate, Integer memberLimit) {
         this.id = id;
         this.name = name;
