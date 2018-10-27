@@ -1,5 +1,6 @@
 package jdbc.dao;
 
+import Entity.Member;
 import Entity.Run;
 import dao.RunDao;
 import pl.sdacademy.database.jdbc.utils.JdbcUtils;
@@ -12,8 +13,26 @@ public class JdbcRunDaoImpl implements RunDao {
 
     private Connection connection = JdbcUtils.getInstance().getConnection();
 
+    private List<Member> getMembersList(Long runId) throws SQLException {
+        PreparedStatement statement = connection.prepareStatement("select *from members where run_id=?");
+        statement.setLong(1, runId);
+        ResultSet resultSet = statement.executeQuery();
+
+        ArrayList<Member> resultList = new ArrayList<Member>();
+
+        while (resultSet.next() == true) {
+            Member member = new Member();
+            member.setId(resultSet.getLong("id"));
+            member.setName(resultSet.getString("name"));
+            member.setLastName(resultSet.getString("last_name"));
+            member.setStartNumber(resultSet.getInt("start_number"));
+            member.setRunId(resultSet.getLong("run_id"));
+            resultList.add(member);
+        }
+        return resultList;
+    }
+
     public void save(Run run) throws SQLException {
-        //Connection connection = JdbcUtils.getInstance().getConnection();
 
         PreparedStatement statement = connection
                 .prepareStatement("insert into runs(id, name, place, start_date, start_time, members_limit) values(?, ?, ?, ?, ?, ?)");
@@ -33,7 +52,6 @@ public class JdbcRunDaoImpl implements RunDao {
     }
 
     public Run findById(Long id) throws SQLException {
-        //Connection connection = JdbcUtils.getInstance().getConnection();
 
         PreparedStatement statement = connection.prepareStatement("select* from runs where id=?");
         statement.setLong(1, id);
@@ -46,6 +64,7 @@ public class JdbcRunDaoImpl implements RunDao {
             run.setMemberLimit(resultSet.getInt("members_limit"));
             run.setStartDate(resultSet.getDate("start_date"));
             run.setStartTime(resultSet.getDate("start_time"));
+            run.setMemberList(getMembersList(run.getId()));
             return run;
         }
         return null;
@@ -96,5 +115,11 @@ public class JdbcRunDaoImpl implements RunDao {
                 .prepareStatement("delete from runs where id =?");
         statement.setLong(1, run.getId());
         statement.executeUpdate();
+    }
+
+    public void deleteAll() throws SQLException {
+        Statement statement = connection.createStatement();
+        statement.executeUpdate("delete from runs");
+        statement.close();
     }
 }

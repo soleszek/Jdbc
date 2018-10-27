@@ -1,13 +1,17 @@
 package Entity;
 
+import java.util.List;
+
 public class Member {
     private Long id;
     private String name;
     private String lastName;
     private Integer startNumber;
-    private Integer runId;
+    private Long runId;
 
-    public Member(Long id, String name, String lastName, Integer startNumber, Integer runId) {
+    public Member() {};
+
+    public Member(Long id, String name, String lastName, Integer startNumber, Long runId) {
         this.id = id;
         this.name = name;
         this.lastName = lastName;
@@ -47,11 +51,11 @@ public class Member {
         this.startNumber = startNumber;
     }
 
-    public Integer getRunId() {
+    public Long getRunId() {
         return runId;
     }
 
-    public void setRunId(Integer runId) {
+    public void setRunId(Long runId) {
         this.runId = runId;
     }
 }

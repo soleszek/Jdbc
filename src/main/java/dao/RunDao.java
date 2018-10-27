@@ -11,4 +11,5 @@ public interface RunDao {
     List<Run> findAll() throws SQLException;
     void update(Run run) throws SQLException;
     void delete(Long id) throws SQLException;
+    void deleteAll() throws SQLException;
 }

@@ -1,6 +1,7 @@
 package Entity;
 
 import java.util.Date;
+import java.util.List;
 
 public class Run {
     private Long id;
@@ -9,6 +10,19 @@ public class Run {
     private Date startTime;
     private Date startDate;
     private Integer memberLimit;
+    private List<Member> memberList;
+
+    public Run(){};
+
+    public Run(Long id, String name, String place, Date startTime, Date startDate, Integer memberLimit, List<Member> memberList) {
+        this.id = id;
+        this.name = name;
+        this.place = place;
+        this.startTime = startTime;
+        this.startDate = startDate;
+        this.memberLimit = memberLimit;
+        this.memberList = memberList;
+    }
 
     public Long getId() {
         return id;
@@ -58,14 +72,11 @@ public class Run {
         this.memberLimit = memberLimit;
     }
 
-    public Run(){};
+    public List<Member> getMemberList() {
+        return memberList;
+    }
 
-    public Run(Long id, String name, String place, Date startTime, Date startDate, Integer memberLimit) {
-        this.id = id;
-        this.name = name;
-        this.place = place;
-        this.startTime = startTime;
-        this.startDate = startDate;
-        this.memberLimit = memberLimit;
+    public void setMemberList(List<Member> memberList) {
+        this.memberList = memberList;
     }
 }
