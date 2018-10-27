@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14ae3ab-212e-42d8-ba55-62630b05ff40" name="Default Changelist" comment="Działa pierwsza baza">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sdacademy/database/jdbc/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sdacademy/database/jdbc/utils/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,14 +69,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1997" />
+          <entry key="java" value="2264" />
           <entry key="txt" value="67" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1990" />
+          <entry key="JAVA" value="2257" />
           <entry key="PLAIN_TEXT" value="67" />
           <entry key="SQL" value="7" />
           <entry key="XML" value="10" />
@@ -82,18 +84,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="runs" value="7" />
-          <entry key="sql" value="10" />
+          <entry key="java" value="5" />
+          <entry key="runs" value="8" />
+          <entry key="sql" value="11" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
-          <entry key="JAVA" value="3" />
+          <entry key="Database Element" value="8" />
+          <entry key="JAVA" value="5" />
           <entry key="SQL" value="1" />
-          <entry key="Scratch" value="9" />
+          <entry key="Scratch" value="10" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -132,10 +134,74 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sdacademy/database/jdbc/utils/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="86">
+              <caret line="79" column="85" lean-forward="true" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,6 +237,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sdacademy/database.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sdacademy/Database.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sdacademy/database/jdbc/utils/JdbcUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/Run.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sdacademy/database/jdbc/utils/Main.java" />
       </list>
     </option>
@@ -231,6 +299,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sdacademy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,7 +347,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540638378549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540638830482" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -336,7 +412,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540625322868</updated>
-      <workItem from="1540625345180" duration="10726000" />
+      <workItem from="1540625345180" duration="11161000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwszy commit z IntelliJ">
       <created>1540630541490</created>
@@ -363,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10726000" />
+    <option name="totallyTimeSpent" value="11161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -384,7 +460,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50040483" side_tool="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.26998225" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.26820603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +469,7 @@
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.09635627" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.23967612" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/baza (1).sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://0681dd23-33ad-4ada-a98e-2c00830befc9/schema/baza_testowa/table/runs">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -495,10 +564,77 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0681dd23-33ad-4ada-a98e-2c00830befc9/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/baza (1).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sdacademy/database/jdbc/utils/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="86">
+          <caret line="79" column="85" lean-forward="true" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

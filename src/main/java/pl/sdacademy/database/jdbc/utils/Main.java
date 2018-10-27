@@ -6,7 +6,7 @@ import java.util.UUID;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
-        //insertRun(2, "Bieg po złote runo", "Malawa", new java.util.Date(), new java.util.Date(), 100);
+        //insertRun(1, "Bieg po złote runo", "Malawa", new java.util.Date(), new java.util.Date(), 100);
         //deleteRun(2);
 
         //###########################
@@ -17,10 +17,10 @@ public class Main {
             insertRun(j, name, place, new java.util.Date(), new java.util.Date(), members_limit);
         }*/
 
-        deleteAllRuns();
+        //deleteAllRuns();
 
         //printAllRuns();
-        //updateRun();
+        updateRun(1, "Sylwester", "Jasło", new java.util.Date(), new java.util.Date(), 100);
         //System.out.println(UUID.randomUUID().toString().substring(0, 7));
         //System.out.println((int) (Math.random() * 100));
     }
@@ -81,7 +81,7 @@ public class Main {
                                   int members_limit) throws SQLException {
         Connection connection = JdbcUtils.getInstance().getConnection();
         PreparedStatement statement = connection
-                .prepareStatement("update runs set id=?, name=?, place=?, startTime=?, startTime=?, members_limit=?");
+                .prepareStatement("update runs set id=?, name=?, place=?, START_DATE=?, start_Time=?, members_limit=?");
 
         statement.setInt(1, id);
         statement.setString(2, name);
